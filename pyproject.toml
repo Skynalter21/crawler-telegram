@@ -1,0 +1,10 @@
+[project]
+name = "telegram-promo-bot"
+version = "0.1.0"
+description = "Bot de Telegram com agendamento periódico e comandos para grupo de amigos"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
